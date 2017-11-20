@@ -1,0 +1,216 @@
+/*header
+.header{
+display: grid;
+background: green;
+height: 30px;
+margin-top: 30px;
+}*/
+/*Global elements*/
+/*mainpage*/
+
+/*p{
+color: white;
+text-align: right;
+margin-right: 10px;
+}*/
+
+/*Container elements
+*content and navigation positioning*/
+.rowa{
+  width:70%;
+  float:left;
+
+}
+
+.rowb{
+  margin-top: 152px;
+  width: 30%;
+  float:right;
+}
+/*projects*/
+
+img{
+  height: 300px;
+  width: 300px;
+}
+
+.logo{
+  background-color: black;
+  height: 150px;
+  color: white;
+  text-align: right;
+  line-height: 290px;
+
+}
+
+.box1 {
+  background-color: black;
+  height: 450px;
+  color: white;
+  text-align: right;
+  line-height: 290px;
+
+}
+
+.box2{
+  background-color: black;
+  height: 200px;
+  color: white;
+  text-align: right;
+  line-height: 290px;
+
+}
+
+.box3{
+  background-color: black;
+  height: 100px;
+  color: white;
+  text-align: right;
+  line-height: 290px;
+  float: right;
+
+}
+
+.box4{
+  background-color: black;
+  height: 80px;
+  color: white;
+  text-align: right;
+  line-height: 290px;
+
+}
+
+.box5{
+  height: 250px;
+  color: white;
+  text-align: right;
+  line-height: 290px;
+
+}
+/*sidenavigation*/
+.box6{
+  height: 250px;
+  color: white;
+  text-align: right;
+  line-height: 290px;
+
+}
+
+.box7{
+  background-color: black;
+  height: 200px;
+  color: white;
+  text-align: right;
+  line-height: 290px;
+
+}
+
+.box8{
+  height: 300px;
+  color: white;
+  text-align: right;
+  line-height: 290px;
+
+}
+
+.box9{
+  height: 300px;
+  color: white;
+  text-align: right;
+  line-height: 290px;
+
+}
+
+.box10{
+  height: 300px;
+  color: white;
+  text-align: right;
+  line-height: 290px;
+
+}
+
+.box11{
+  background-color: black;
+  height: 200px;
+  color: white;
+  text-align: right;
+  line-height: 290px;
+
+
+}
+
+
+.box:hover{
+  animation: shake 1.0s cubic-bezier(.36,.07,.19,.97) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+
+}
+
+.no-padding {
+  padding: 0.5 0.5 0.5 0.5 !important;
+}
+
+/*sidenav*/
+#sidenav{
+  height:100px;
+  text-align: left;
+  font-size: 20px;
+  font-family: 'Raleway',sans-serif;
+  font-weight: 200;
+  font-size: 1em;
+  background-color: yellow;
+}
+
+/*bounceInDown
+@keyframes bounceInDown {
+from, 60%, 75%, 90%, to {
+animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
+}
+
+0% {
+opacity: 0;
+transform: translate3d(0, -3000px, 0);
+}
+
+60% {
+opacity: 1;
+transform: translate3d(0, 25px, 0);
+}
+
+75% {
+transform: translate3d(0, -10px, 0);
+}
+
+90% {
+transform: translate3d(0, 5px, 0);
+}
+
+to {
+transform: none;
+}
+}
+
+.bounceInDown {
+animation-name: bounceInDown;
+}*/
+
+/*shake*/
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
