@@ -16,6 +16,10 @@ margin-right: 10px;
 
 /*Container elements
 *content and navigation positioning*/
+.fullpage{
+  width: 100%;
+  margin-left: 100px;
+}
 .rowa{
   width:70%;
   float:left;
@@ -29,18 +33,16 @@ margin-right: 10px;
 }
 /*projects*/
 
-img{
-  height: 300px;
-  width: 300px;
+.img{
+  height: 100px;
+  width: 200px;
 }
 
 .logo{
-  background-color: black;
-  height: 150px;
+  height: 140px;
   color: white;
-  text-align: right;
   line-height: 290px;
-
+  margin-top: 10px;
 }
 
 .box1 {
@@ -68,40 +70,57 @@ img{
   text-align: right;
   line-height: 290px;
   float: right;
+  padding: 50 30 50 52 !important;
+  margin-bottom: 10px;
+
 
 }
 
 .box4{
   background-color: black;
-  height: 80px;
+  height: 100px;
   color: white;
   text-align: right;
   line-height: 290px;
+  float:right;
+  padding: 50 30 50 35 !important;
+  margin-bottom: 10px;
 
 }
 
 .box5{
-  height: 250px;
+  background-color: black;
+  height: 100px;
   color: white;
   text-align: right;
   line-height: 290px;
+  float:right;
+  padding: 50 30 50 50 !important;
+  margin-bottom: 10px;
 
 }
 /*sidenavigation*/
 .box6{
-  height: 250px;
+  background-color: black;
+  height: 100px;
   color: white;
   text-align: right;
   line-height: 290px;
+  float:right;
+  padding: 50 30 50 45 !important;
+  margin-bottom: 10px;
 
 }
 
 .box7{
   background-color: black;
-  height: 200px;
+  height: 100px;
   color: white;
   text-align: right;
   line-height: 290px;
+  float:right;
+  padding: 50 30 50 55 !important;
+  margin-bottom: 10px;
 
 }
 
@@ -150,6 +169,10 @@ img{
 
 .no-padding {
   padding: 0.5 0.5 0.5 0.5 !important;
+}
+
+.paddinga {
+  padding: 50 30 50 50 !important;
 }
 
 /*sidenav*/
