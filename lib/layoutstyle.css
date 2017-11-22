@@ -8,15 +8,8 @@
 /*Global elements*/
 /*mainpage*/
 
-
-#mainpage{
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  grid-template-columns: 385px 385px 385px 260px;
-  grid-template-rows: 150px 350px 250px 200px;
-  grid-column-gap: 1px;
-  grid-row-gap: 1px;
-  margin-top: 20px;
+.a{
+  font-family: 'Alegreya' 'Poppins', sans;
 }
 
 /*p{
@@ -45,7 +38,7 @@ background-color: black;
 
 .logo:hover{
 background-color: white;
-background: url("img/Esther-Logo-1.png") no-repeat;
+background: no-repeat;
 
 }
 

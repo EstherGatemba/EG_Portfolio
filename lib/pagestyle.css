@@ -31,8 +31,22 @@ margin-right: 10px;
   width: 30%;
   float:right;
 }
-/*projects*/
 
+.parallax{
+  /* The image used */
+   background-image: url('Atlantis_Display_FINAL.jpg');
+
+   /* Full height */
+   height: 450px;
+
+   /* Create the parallax scrolling effect */
+   background-attachment: fixed;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+/*projects*/
 .img{
   height: 100px;
   width: 200px;
@@ -45,12 +59,20 @@ margin-right: 10px;
   margin-top: 10px;
 }
 
-.box1 {
+.box0 {
   background-color: black;
-  height: 450px;
+  height: 550px;
   color: white;
   text-align: right;
   line-height: 290px;
+
+}
+
+.box1 {
+  height: 450px;
+  color: black;
+  text-align: left;
+  margin-top: 15px;
 
 }
 
@@ -58,7 +80,7 @@ margin-right: 10px;
   background-color: black;
   height: 200px;
   color: white;
-  text-align: right;
+  text-align: center;
   line-height: 290px;
 
 }
@@ -72,6 +94,7 @@ margin-right: 10px;
   float: right;
   padding: 50 30 50 52 !important;
   margin-bottom: 10px;
+  text
 
 
 }
