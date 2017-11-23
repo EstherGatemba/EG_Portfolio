@@ -29,7 +29,17 @@ margin-right: 10px;
 .rowb{
   margin-top: 152px;
   width: 30%;
-  float:right;
+  position: fixed;
+  left: 1099px;
+}
+
+/*boxes animation*/
+.box:hover{
+  animation: shake 1.0s cubic-bezier(.36,.07,.19,.97) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+
 }
 
 .parallax{
@@ -46,12 +56,11 @@ margin-right: 10px;
    background-size: cover;
 }
 
-/*projects*/
 .img{
   height: 100px;
   width: 200px;
 }
-
+/*logo/header*/
 .logo{
   height: 140px;
   color: white;
@@ -59,6 +68,7 @@ margin-right: 10px;
   margin-top: 10px;
 }
 
+/*page content*/
 .box0 {
   background-color: black;
   height: 550px;
@@ -82,9 +92,9 @@ margin-right: 10px;
   color: white;
   text-align: center;
   line-height: 290px;
-
 }
 
+/*navigation*/
 .box3{
   background-color: black;
   height: 100px;
@@ -92,11 +102,8 @@ margin-right: 10px;
   text-align: right;
   line-height: 290px;
   float: right;
-  padding: 50 30 50 52 !important;
+  padding: 50 30 50 53 !important;
   margin-bottom: 10px;
-  text
-
-
 }
 
 .box4{
@@ -106,9 +113,8 @@ margin-right: 10px;
   text-align: right;
   line-height: 290px;
   float:right;
-  padding: 50 30 50 35 !important;
+  padding: 50 30 50 36 !important;
   margin-bottom: 10px;
-
 }
 
 .box5{
@@ -118,9 +124,8 @@ margin-right: 10px;
   text-align: right;
   line-height: 290px;
   float:right;
-  padding: 50 30 50 50 !important;
+  padding: 50 30 50 53 !important;
   margin-bottom: 10px;
-
 }
 /*sidenavigation*/
 .box6{
@@ -130,9 +135,8 @@ margin-right: 10px;
   text-align: right;
   line-height: 290px;
   float:right;
-  padding: 50 30 50 45 !important;
+  padding: 50 30 50 49 !important;
   margin-bottom: 10px;
-
 }
 
 .box7{
@@ -142,7 +146,7 @@ margin-right: 10px;
   text-align: right;
   line-height: 290px;
   float:right;
-  padding: 50 30 50 55 !important;
+  padding: 50 30 50 60 !important;
   margin-bottom: 10px;
 
 }
@@ -177,19 +181,85 @@ margin-right: 10px;
   color: white;
   text-align: right;
   line-height: 290px;
+}
 
+/*content block one */
+.content-block-one {
+  padding: 20px;
+  margin-bottom: 0px;
+  color: inherit;
+}
+.content-block-one h1,
+.content-block-one .h1 {
+  color: inherit;
+}
+.content-block-one p {
+  margin-bottom: 15px;
+  font-size: 21px;
+  font-weight: 200;
+}
+.content-block-one > hr {
+}
+.container .content-block-one {
+  border-radius: 6px;
+}
+.content-block-one .container {
+  max-width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .content-block-one {
+    padding-top: 48px;
+    padding-bottom: 48px;
+  }
+  .container .content-block-one {
+    padding-right: 60px;
+    padding-left: 60px;
+  }
+  .content-block-one h1,
+  .content-block-one .h1 {
+    font-size: 63px;
+  }
+}
 
+/*content space one*/
+.content-space-one {
+  padding: 0px;
+  margin-bottom: 0px;
+  color: inherit;
+  background: url(http://placehold.it/1200x650/0033cc/ffffff) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 
-.box:hover{
-  animation: shake 1.0s cubic-bezier(.36,.07,.19,.97) both;
-  transform: translate3d(0, 0, 0);
-  backface-visibility: hidden;
-  perspective: 1000px;
+/*content block two*/
 
+
+/*content space two*/
+.content-space-two {
+  padding: 0px;
+  margin-bottom: 0px;
+  color: inherit;
+  background: url(http://placehold.it/1200x650/cc0000/ffffff) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
+
+.page-break {
+    width: 50%;
+    height: 3px;
+    margin: 0 auto;
+}
+/*homepage spacing*/
 .no-padding {
   padding: 0.5 0.5 0.5 0.5 !important;
 }
@@ -197,50 +267,6 @@ margin-right: 10px;
 .paddinga {
   padding: 50 30 50 50 !important;
 }
-
-/*sidenav*/
-#sidenav{
-  height:100px;
-  text-align: left;
-  font-size: 20px;
-  font-family: 'Raleway',sans-serif;
-  font-weight: 200;
-  font-size: 1em;
-  background-color: yellow;
-}
-
-/*bounceInDown
-@keyframes bounceInDown {
-from, 60%, 75%, 90%, to {
-animation-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1.000);
-}
-
-0% {
-opacity: 0;
-transform: translate3d(0, -3000px, 0);
-}
-
-60% {
-opacity: 1;
-transform: translate3d(0, 25px, 0);
-}
-
-75% {
-transform: translate3d(0, -10px, 0);
-}
-
-90% {
-transform: translate3d(0, 5px, 0);
-}
-
-to {
-transform: none;
-}
-}
-
-.bounceInDown {
-animation-name: bounceInDown;
-}*/
 
 /*shake*/
 @keyframes shake {
