@@ -1,8 +1,33 @@
 /*text formatting*/
-.body{
+.p{
+  font-family: 'Quicksand' 'Poppins', sans-serif;
 }
+
 .project{
+
   columns: 3;
+}
+.title{
+  font-family: Poppins;
+  font-weight: bold;
+}
+
+.nav{
+  font-family: 'Quicksand', sans-serif;
+  font-size: 20px;
+}
+.projectinfo{
+  font-family: 'Quicksand', sans-serif;
+  font-size: 9px;
+  font-weight: 300;
+}
+
+.myInput .button{
+ border-radius:8px;
+ font-size:12px;
+ font-family: 'Quicksand', sans-serif;
+ cursor:pointer;
+ line-height: normal;
 }
 /*Container elements
 *content and navigation positioning*/
@@ -34,14 +59,14 @@
 
 .img{
   height: 100px;
-  width: 200px;
+  width: 150px;
 }
 /*logo/header*/
 .logo{
   height: 140px;
   color: white;
   line-height: 290px;
-  margin-top: 10px;
+  padding-top: 10 !important;
 }
 
 /*page content*/
@@ -54,7 +79,7 @@
 }
 
 .box1 {
-  height: 450px;
+  height: 300px;
   color: black;
   text-align: left;
   margin-top: 15px;
@@ -67,6 +92,8 @@
   color: white;
   text-align: center;
   line-height: 290px;
+  text-align: left;
+  padding-left: 10px;
 }
 
 /*navigation*/
@@ -88,7 +115,7 @@
   text-align: right;
   line-height: 290px;
   float:right;
-  padding: 50 30 50 36 !important;
+  padding: 50 30 50 32 !important;
   margin-bottom: 10px;
 }
 
@@ -160,15 +187,18 @@
 
 /*content block one */
 .content-block-one {
-  padding: 20px;
+  padding: 10px;
   margin-bottom: 0px;
 }
 .content-block-one h1,
 .content-block-one .h1 {
+  font-family: 'Quicksand', sans-serif;
+
 }
 .content-block-one p {
+  font-family: 'Quicksand', sans-serif;
   margin-bottom: 15px;
-  font-size: 21px;
+  font-size: 15px;
   font-weight: 200;
 }
 .content-block-one > hr {
@@ -204,7 +234,7 @@
   -o-background-size: cover;
   background-size: cover;
   padding-top: 100px;
-  padding-bottom: 200px;
+  padding-bottom: 100px;
 }
 
 
@@ -212,7 +242,7 @@
 .content-space-two {
   padding: 0px;
   margin-bottom: 0px;
-  color: inherit;
+  color: white;
   background: url(http://placehold.it/1200x650/cc0000/ffffff) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;

@@ -18,8 +18,8 @@
   margin-right: 10px;
 }*/
 
-.face{
-
+.p{
+  font-family: 'Quicksand' 'Poppins', sans-serif;
 }
 /*projects*/
 
@@ -34,6 +34,7 @@ img{
   line-height: 290px;
   text-align: center;
 background-color: black;
+padding-top: 40px;
 }
 
 .logo:hover{
