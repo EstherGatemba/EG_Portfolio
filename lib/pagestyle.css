@@ -1,19 +1,9 @@
-/*header
-.header{
-display: grid;
-background: green;
-height: 30px;
-margin-top: 30px;
-}*/
-/*Global elements*/
-/*mainpage*/
-
-/*p{
-color: white;
-text-align: right;
-margin-right: 10px;
-}*/
-
+/*text formatting*/
+.body{
+}
+.project{
+  columns: 3;
+}
 /*Container elements
 *content and navigation positioning*/
 .fullpage{
@@ -42,20 +32,6 @@ margin-right: 10px;
 
 }
 
-.parallax{
-  /* The image used */
-   background-image: url('Atlantis_Display_FINAL.jpg');
-
-   /* Full height */
-   height: 450px;
-
-   /* Create the parallax scrolling effect */
-   background-attachment: fixed;
-   background-position: center;
-   background-repeat: no-repeat;
-   background-size: cover;
-}
-
 .img{
   height: 100px;
   width: 200px;
@@ -70,7 +46,6 @@ margin-right: 10px;
 
 /*page content*/
 .box0 {
-  background-color: black;
   height: 550px;
   color: white;
   text-align: right;
@@ -187,11 +162,9 @@ margin-right: 10px;
 .content-block-one {
   padding: 20px;
   margin-bottom: 0px;
-  color: inherit;
 }
 .content-block-one h1,
 .content-block-one .h1 {
-  color: inherit;
 }
 .content-block-one p {
   margin-bottom: 15px;
@@ -225,18 +198,14 @@ margin-right: 10px;
 .content-space-one {
   padding: 0px;
   margin-bottom: 0px;
-  color: inherit;
-  background: url(http://placehold.it/1200x650/0033cc/ffffff) no-repeat center center fixed;
+  background: url(img/mona-eendra.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
   padding-top: 100px;
-  padding-bottom: 100px;
+  padding-bottom: 200px;
 }
-
-
-/*content block two*/
 
 
 /*content space two*/
