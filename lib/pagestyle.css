@@ -63,7 +63,7 @@
 }
 /*logo/header*/
 .logo{
-  height: 140px;
+  height: 150px;
   color: white;
   line-height: 290px;
   padding-top: 10 !important;
@@ -71,10 +71,12 @@
 
 /*page content*/
 .box0 {
-  height: 550px;
+  background-color: white;
+  height: 500px;
   color: white;
   text-align: right;
-  line-height: 290px;
+  line-height: 20px;
+  padding-right: 10px;
 
 }
 
