@@ -74,7 +74,8 @@
   background-color: white;
   height: 500px;
   color: white;
-  text-align: right;
+  text-align: justify;
+  letter-spacing: 1px;
   line-height: 20px;
   padding-right: 10px;
 
@@ -89,13 +90,13 @@
 }
 
 .box2{
-  background-color: black;
+  background-color: white;
   height: 200px;
-  color: white;
-  text-align: center;
-  line-height: 290px;
+  color: black;
   text-align: left;
+  line-height: 290px;
   padding-left: 10px;
+  margin-top: 5px;
 }
 
 /*navigation*/
@@ -230,6 +231,7 @@
 .content-space-one {
   padding: 0px;
   margin-bottom: 0px;
+  color: white;
   background: url(img/mona-eendra.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -242,10 +244,10 @@
 
 /*content space two*/
 .content-space-two {
-  padding: 0px;
+  margin-top: 450px;
   margin-bottom: 0px;
   color: white;
-  background: url(http://placehold.it/1200x650/cc0000/ffffff) no-repeat center center fixed;
+  background: url(img/mona-eendra.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -254,6 +256,18 @@
   padding-bottom: 100px;
 }
 
+.content-space-twoa {
+  margin-top: 550px;
+  margin-bottom: 0px;
+  color: white;
+  background: url(img/mona-eendra.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
 
 .page-break {
     width: 50%;
