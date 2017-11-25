@@ -1,4 +1,4 @@
-
+@charset "UTF-8";
 
 .a{
   font-family: 'Alegreya' 'Poppins', sans;
@@ -144,7 +144,7 @@
   text-align: right;
   line-height: 290px;
   padding-right: 10px;
-  padding-top: 10px;
+  padding-top: 120px;
   font-family: 'Quicksand', sans-serif;
   font-size: 20px;
 
