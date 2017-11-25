@@ -21,14 +21,15 @@
   height: 210px;
   color: white;
   line-height: 290px;
-  text-align: center;
-background-color: black;
-padding-top: 40px;
+  text-align: right;
+  background-color: black;
+  padding-top: 40px;
+  padding-right: 20px;
 }
 
 .logo:hover{
-background-color: white;
-background: no-repeat;
+  background-color: white;
+  background: no-repeat;
 
 }
 
@@ -128,7 +129,7 @@ background: no-repeat;
 .box9{
   background-color: black;
   height: 300px;
-  color: black;
+  color: white;
   text-align: right;
   line-height: 290px;
   padding-right: 20px;
@@ -166,9 +167,9 @@ background: no-repeat;
 
 .box:hover{
   animation: shake 1.0s cubic-bezier(.36,.07,.19,.97) both;
- transform: translate3d(0, 0, 0);
- backface-visibility: hidden;
- perspective: 1000px;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
 
 }
 
