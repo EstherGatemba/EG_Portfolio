@@ -2,6 +2,9 @@
 .p{
   font-family: 'Quicksand' 'Poppins', sans-serif;
   padding-bottom: 5px;
+  font-size: 9px;
+  padding-top: 10px;
+  color: black;
 }
 
 .project{
@@ -90,7 +93,7 @@ float:right;
 .box0a {
   background-color: white;
   height: 500px;
-  color: white;
+  color: black;
   text-align: justify;
   letter-spacing: 1px;
   line-height: 20px;
@@ -147,13 +150,14 @@ float:right;
 
 .box5{
   background-color: black;
-  height: 100px;
+  height: 300px;
   color: white;
-  text-align: right;
+  text-align: center;
   line-height: 290px;
   float:right;
-  padding: 50 30 50 53 !important;
+  padding: 50 30 50 46 !important;
   margin-bottom: 10px;
+  color: black;
 }
 /*sidenavigation*/
 .box6{
