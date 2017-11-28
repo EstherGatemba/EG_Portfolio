@@ -7,97 +7,124 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
     <title>Gatemba Esther</title>
     <!-- styles -->
-    <link rel="stylesheet" href="./lib/stry.css">
+    <link rel="stylesheet" href="lib/stry.css">
     <!-- bootstrap css -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
     <!-- JQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <!---GSAP---->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenLite.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/easing/EasePack.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/plugins/CSSPlugin.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/plugins/DirectionalRotationPlugin.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/plugins/ScrollToPlugin.min.js"></script>
-    <!---Javascript--->
-    <script src="lib/main.js"></script>
+    <!---javascript--->
+    <script src="lib/stry.js"></script>
     <!-- fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC|Poppins" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css?family=Poppins|Quicksand" rel="stylesheet">
+    <!--scroll magic--->
+    <script src="lib/ScrollMagic.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js"></script>
+    <!---GSAP --->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenLite.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/plugins/CSSPlugin.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js"></script>
   </head>
+<body>
+  <!---big container holding both the site content and the fixed navigation--->
   <div class="container-fluid">
-    <div class="row">
-      <!--- boxes---->
-      <div class="col-12 col-sm-6 col-md-3 col-lg-3 no-padding">
+    <div class="fullpage">
+  <!--- Row 1: Contains the content--->
+  <div class="container-fluid">
+    <div class="rowa">
+      <!--- logo ---->
+      <div class=" col-md-3 no-padding">
         <a href="index.html">
-        <div class="box logo">
-          <img src="lib/img/Esther-logo-2.png" alt="GatembaEsther_logo">
-        </a>
-        <h6> Esther Gatemba</h6>
-        </div>
-      </div>
-      <!---box1--->
-      <div class="col-12 col-sm-6 col-md-3 col-lg-3 no-padding">
-        <div class=" box1">
-        </div>
-      </a>
-      </div>
-      <!-- box2--->
-      <div class="col-12 col-sm-6 col-md-3 col-lg-3 no-padding">
-        <div class="box box2">
-        </div>
-      </div>
-      <!---box3--->
-      <div class="col-12 col-sm-6 col-md-3 col-lg-3 no-padding">
-        <div class=" box3">
-        </div>
-      </div>
-      <!--box4 about-->
-      <div class="col-12 col-sm-6 col-md-3 col-lg-3 no-padding">
-        <div class="box box4">
-        </div>
-      </div>
-      <!---box5 samaritan's feet--->
-      <div class="col-12 col-sm-6 col-md-3 col-lg-3 no-padding">
-          <div class="box box5">
-        </div>
-      </div>
-      <!---box6 Raymo--->
-      <div class="col-12 col-sm-6 col-md-3 col-lg-3 no-padding">
-          <div class="box box6">
-        </div>
-      </div>
-      <!---box7 Controls---->
-      <div class="col-12 col-sm-6 col-md-3 col-lg-3 no-padding">
-        <div class="box box7">
-        </div>
-      </div>
-      <!-----box8 Pillowsite---->
-      <div class="col-12 col-sm-6 col-md-3 col-lg-3 no-padding">
-        <div class="box box8">
-        </div>
-      </div>
-      <!---box9 site map---->
-      <div class="col-12 col-sm-6 col-md-3 col-lg-3 no-padding">
-        <div class=" box9">
+        <div id="logo">
+          <img src="lib/img/Esther-logo-3.png" alt="GatembaEsther logo">
         </div></a>
       </div>
-      <!---box10 ---->
-      <div class="col-12 col-sm-6 col-md-3 col-lg-3 no-padding">
-        <div class=" box10">
-
+      <!--- page image --->
+      <div class="col-12 no-padding">
+        <div class="box0">
+          <div id="myPic">
+            <img src="lib/img/pic_huhn.jpg" width="" height="500px">
+          </div>
         </div>
       </div>
-      <!---box11---->
-      <div class="col-12 col-sm-6 col-md-3 col-lg-3 no-padding">
-        <div class=" box11">
 
+      <!---content block one--->
+      <div class="col-12 no-padding content-block-one">
+        <div class="box1">
+          <article class="project">
+            <h1 class="title">About me: In a snippet</h1>
+              <p class="projectinfo">
+                I am currently a Master student at Carnegie Mellon University.
+                My inspiration to getting involved with the Human Computer Interaction field is to be a person who is capable of transmitting information while playing a role in elevating human interaction with technology especially in a constantly changing technological world.
+                The developing, designing, programming and psychological techniques learnt from my experience at Carnegie Mellon University will go forth to impact and change the world.
+                I have always known that technology is a big part of my life.
+                My goals to work with technology; creatively, helping others understand how to interact with technology, engage with one another designing tools and programming interfaces that are user-friendly cannot be attained without proper training, instruction and practice.
+              </p>
+          </article>
+        </div>
       </div>
+      <!--content space one -->
+      <div class="content-space-one">
+                      <div class="text-center">
+                        <a href="GatembaEsther_resume.pdf" download class="btn btn-outline-secondary">Download Resume</a>
+                        <button id="email" class="btn btn-outline-secondary" onclick="copyToClipboard(#email)"> Email </button>
+                          <div class="page-break"></div>
+                      <p></p>
+                      </div>
+                  </div>
+<!--content block two --->
+      <div class="col-12  no-padding">
+        <div class="box2">
+            <p class="title"> about | sitemap | copyright</p>
+        </div>
+      </div>
+
+      <!--content space two --->
+
+
     </div>
   </div>
+
+  <!---Row 2: contains the navigation--->
+  <div class="container-fluid">
+    <div class="rowb">
+      <!---boxes--->
+      <div class="col-md-6 col-md-offset-10">
+        <a href="about.html">
+        <div class="box box3 navbar-brand navbar-right">
+          <article class="project_description">
+            <p class="nav">About</p>
+          </article>
+        </div></a>
+      </div>
+      <div class="col-md-6 col-md-offset-10">
+        <div class="box box4 navbar-brand navbar-right">
+          <article class="project_description">
+            <p class="nav"> Contact</p>
+          </article>
+        </div>
+      </div>
+      <div class="col-md-6 col-md-offset-10">
+        <div class="box5 navbar-brand navbar-right">
+          <article class="projectinfo">
+            <a href="https://esthergatemba.github.io/flipStitchPillow.esthergatemba.io/"><img src="lib/img/Github-Mark-Light-120px-plus.png" class="box" alt="Github logo" height="65"><br></a><p> Github</p>
+            <a href="facebook link"><img src="lib/img/FB-f-Logo__white_144.png" class="box" alt="facebook logo" height="60"><br></a><p> Facebook</p>
+            <a href="Linked in"><img src="lib/img/In-White-121px-R.png" class="box" class="projectinfo" alt="LinkedIn logo" height="60"><br></a>
+          </article>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+</div>
+
+
+
+
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity=
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
 </body>
 
 

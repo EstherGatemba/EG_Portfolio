@@ -1,170 +1,186 @@
-@charset "UTF-8";
-
-.a{
-  font-family: 'Alegreya' 'Poppins', sans;
-  text-decoration: none;
+/*
+	Containers
+*/
+#content-wrapper, #example-wrapper {
+	height: 100%;
+}
+.scrollContainer {
+	overflow-y: scroll;
+	overflow-x: hidden;
+	width: 100%
+}
+.scrollContainer {
+	height: 100%;
+	margin: auto;
+}
+#example-wrapper .scrollContent {
+	height: 100%;
 }
 
+.horizontal.scrollContainer {
+	overflow-y: hidden;
+	overflow-x: scroll;
+}
+#example-wrapper.scrollContainer .scrollContent {
+	width: 100%;
+	height: auto;
+}
+#example-wrapper.scrollContainer.horizontal .scrollContent {
+	width: auto;
+	height: 100%;
+}
+#example-wrapper.horizontal {
+	white-space: nowrap;
+	font-size: 0;  /* fix for spaces between inline block divs */
+}
+#example-wrapper.horizontal div {
+	font-size: 13px;
+}
+#example-wrapper .scrollContent, #example-wrapper.horizontal .scrollContent {
+	font-size: 0;
+}
+#example-wrapper .scrollContent div {
+	font-size: 13px;
+}
+#example-wrapper section {
+}
+
+section#titlechart {
+	text-align: center;
+	position: relative;
+	height: 100%;
+	min-height: 500px;
+	min-width: 100%;
+	height: 100vh;
+}
+.horizontal section, .horizontal section#titlechart{
+	display: inline-block;
+	vertical-align: top;
+	height: 100%;
+}
+section#titlechart #description {
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	width: 600px;
+	height: 300px;
+	margin: -150px auto auto -300px;
+}
+section#titlechart.home #description {
+	padding-top: 0;
+	padding-bottom: 100px;
+}
+section#titlechart #description h1 {
+	margin: 0;
+}
+section#titlechart #description h2 {
+	margin-bottom: 20px;
+}
+section#titlechart #description a.viewsource {
+	margin-bottom: 20px;
+	display: inline-block;
+}
+section#titlechart #description code {
+	background-color: #E1F1FF;
+	padding-left: 2px;
+	padding-right: 2px;
+	white-space: nowrap;
+}
+
+section#titlechart #description ol, section#titlechart #description p {
+	text-align: left;
+	max-width: 400px;
+	margin: 10px auto 10px auto;
+	white-space: normal;
+}
+section#titlechart #description ol {
+	list-style-position: outside;
+}
+#example-wrapper section#titlechart #description:after {
+	content: "↧";
+	font-size: 40px;
+	display: block;
+}
+#example-wrapper.horizontal section#titlechart #description:after {
+	content: "↦";
+}
+
+
+section.demo * {
+	font-size: 13px;
+}
+section.demo {
+	font-size: 0;
+	text-align: center;
+	background-image: url("../img/example_bg_v.png");
+}
+section.demo.fullheight {
+	min-height: 100%;
+}
+section.demo.doublewidth, .spacer.doublewidth {
+	min-width: 200%;
+}
+.horizontal section.demo {
+	text-align: inherit;
+	white-space: nowrap;
+	background-image: url("../img/example_bg_h.png");
+}
+.horizontal section.demo.fullwidth {
+	min-width: 100%;
+}/*text formatting*/
 .p{
   font-family: 'Quicksand' 'Poppins', sans-serif;
-  color: white;
-}
-/*projects*/
-
-.img{
-  height: 50px;
-  width: 100px;
+  padding-bottom: 5px;
+  font-size: 9px;
   padding-top: 10px;
-}
-
-.logo {
-  height: 210px;
-  color: white;
-  line-height: 290px;
-  text-align: right;
-  background-color: black;
-  padding-top: 40px;
-  padding-right: 20px;
-}
-
-.logo:hover{
-  background-color: white;
-  background: no-repeat;
-
-}
-
-
-.box1 {
-  background-color: black;
-  height: 210px;
   color: black;
-  text-align: right;
-  line-height: 290px;
-  padding-right: 20px;
-  font-family: 'Quicksand', sans-serif;
-  font-size: 20px;
 }
 
-.box2{
-  background-color: black;
-  height: 210px;
-  color: black;
-  text-align: right;
-  line-height: 290px;
-  padding-right: 20px;
-  font-family: 'Quicksand', sans-serif;
-  font-size: 20px;
-}
-
-.box3{
-  background-color: black;
-  height: 210px;
-  color: black;
-  text-align: right;
-  line-height: 290px;
-  padding-right: 20px;
-  font-family: 'Quicksand', sans-serif;
-  font-size: 20px;
-
-}
-
-.box4{
-  background-color: black;
-  height: 300px;
-  color: white;
-  text-align: right;
-  line-height: 290px;
-  padding-right: 20px;
-  font-family: 'Quicksand', sans-serif;
-  font-size: 20px;
-
-}
-
-.box5{
-  background-color: black;
-  height: 300px;
-  color: white;
-  text-align: right;
-  line-height: 290px;
-  padding-right: 20px;
-  font-family: 'Quicksand', sans-serif;
-  font-size: 20px;
-
-}
-/*sidenavigation*/
-.box6{
-  background-color: black;
-  height: 300px;
-  color: white;
-  text-align: right;
-  line-height: 290px;
-  padding-right: 20px;
-  font-family: 'Quicksand', sans-serif;
-  font-size: 20px;
-
-}
-
-.box7{
-  background-color: black;
-  height: 300px;
-  color: white;
-  text-align: right;
-  line-height: 290px;
-  padding-right: 20px;
-  font-family: 'Quicksand', sans-serif;
-  font-size: 20px;
-}
-
-.box8{
-  background-color: black;
-  height: 300px;
-  color: white;
-  text-align: right;
-  line-height: 290px;
-  padding-right: 20px;
-  font-family: 'Quicksand', sans-serif;
-  font-size: 20px;
-}
-
-.box9{
-  background-color: black;
-  height: 300px;
-  color: white;
-  text-align: right;
-  line-height: 290px;
-  padding-right: 20px;
-  font-family: 'Quicksand', sans-serif;
-  font-size: 20px;
-}
-
-.box10{
-  background-color: black;
-  height: 300px;
-  color: white;
-  text-align: right;
-  line-height: 290px;
-  padding-right: 10px;
-  padding-top: 120px;
-  font-family: 'Quicksand', sans-serif;
-  font-size: 20px;
-
-}
-
-.box11{
-  background-color: black;
-  height: 300px;
-  color: black;
-  text-align: right;
-  line-height: 100px;
-  padding-right: 20px;
-  padding-top: 120px;
+.project{
   columns: 3;
-  text-decoration: none;
+}
+.title{
+  font-family: Poppins;
+  font-weight: bold;
+}
+
+.nav{
   font-family: 'Quicksand', sans-serif;
   font-size: 20px;
+}
+.projectinfo{
+  font-family: 'Quicksand', sans-serif;
+  font-size: 9px;
+  font-weight: 300;
+}
+
+.myInput .button{
+ border-radius:8px;
+ font-size:12px;
+ font-family: 'Quicksand', sans-serif;
+ cursor:pointer;
+ line-height: normal;
+}
+/*Container elements
+*content and navigation positioning*/
+.fullpage{
+  width: 100%;
+  margin-left: 100px;
+}
+.rowa{
+  width:70%;
+  float:left;
 
 }
 
+.rowb{
+  margin-top: 152px;
+  width: 30%;
+  position: fixed;
+  left: 1099px;
+}
+
+/*boxes animation*/
 .box:hover{
   animation: shake 1.0s cubic-bezier(.36,.07,.19,.97) both;
   transform: translate3d(0, 0, 0);
@@ -173,8 +189,267 @@
 
 }
 
+.img{
+  height: 100px;
+  width: 150px;
+  padding-bottom: 5px;
+
+}
+.imga{
+float:right;
+}
+/*logo/header*/
+#logo{
+  height: 150px;
+  color: white;
+  line-height: 290px;
+  padding-top: 10 !important;
+  padding-right: 20px;
+}
+
+/*page content*/
+.box0 {
+  background-color: black;
+  height: 500px;
+  color: white;
+  text-align: justify;
+  letter-spacing: 1px;
+  line-height: 20px;
+  padding-right: 10px;
+
+}
+
+.box0a {
+  background-color: white;
+  height: 500px;
+  color: black;
+  text-align: justify;
+  letter-spacing: 1px;
+  line-height: 20px;
+  padding-right: 10px;
+
+}
+.box1 {
+  height: 300px;
+  color: black;
+  text-align: left;
+  margin-top: 15px;
+
+}
+
+.box1_raymo {
+  height: 250px;
+  color: black;
+  text-align: left;
+
+}
+
+.box2{
+  background-color: white;
+  height: 200px;
+  color: black;
+  text-align: left;
+  line-height: 290px;
+  padding-left: 10px;
+  margin-top: 5px;
+}
+
+/*navigation*/
+.box3{
+  background-color: black;
+  height: 100px;
+  color: white;
+  text-align: right;
+  line-height: 290px;
+  float: right;
+  padding: 50 30 50 53 !important;
+  margin-bottom: 10px;
+}
+
+.box4{
+  background-color: black;
+  height: 100px;
+  color: white;
+  text-align: right;
+  line-height: 290px;
+  float:right;
+  padding: 50 30 50 32 !important;
+  margin-bottom: 10px;
+}
+
+.box5{
+  background-color: black;
+  height: 300px;
+  color: white;
+  text-align: center;
+  line-height: 290px;
+  float:right;
+  padding: 50 30 50 46 !important;
+  margin-bottom: 10px;
+  color: black;
+}
+/*sidenavigation*/
+.box6{
+  background-color: black;
+  height: 100px;
+  color: white;
+  text-align: right;
+  line-height: 290px;
+  float:right;
+  padding: 50 30 50 49 !important;
+  margin-bottom: 10px;
+}
+
+.box7{
+  background-color: black;
+  height: 100px;
+  color: white;
+  text-align: right;
+  line-height: 290px;
+  float:right;
+  padding: 50 30 50 60 !important;
+  margin-bottom: 10px;
+
+}
+
+.box8{
+  height: 300px;
+  color: white;
+  text-align: right;
+  line-height: 290px;
+
+}
+
+.box9{
+  height: 300px;
+  color: white;
+  text-align: right;
+  line-height: 290px;
+
+}
+
+.box10{
+  height: 300px;
+  color: white;
+  text-align: right;
+  line-height: 290px;
+
+}
+
+.box11{
+  background-color: black;
+  height: 200px;
+  color: white;
+  text-align: right;
+  line-height: 290px;
+}
+
+/*content block one */
+.content-block-one {
+  padding: 10px;
+  margin-bottom: 0px;
+}
+.content-block-one h1,
+.content-block-one .h1 {
+  font-family: 'Quicksand', sans-serif;
+
+}
+.content-block-one p {
+  font-family: 'Quicksand', sans-serif;
+  margin-bottom: 15px;
+  font-size: 15px;
+  font-weight: 200;
+}
+.content-block-one > hr {
+}
+.container .content-block-one {
+  border-radius: 6px;
+}
+.content-block-one .container {
+  max-width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .content-block-one {
+    padding-top: 48px;
+    padding-bottom: 48px;
+  }
+  .container .content-block-one {
+    padding-right: 60px;
+    padding-left: 60px;
+  }
+  .content-block-one h1,
+  .content-block-one .h1 {
+    font-size: 63px;
+  }
+}
+
+/*content space one*/
+.content-space-one {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: white;
+  background: url(img/mona-eendra.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-top: 200px;
+  padding-bottom: 100px;
+}
+
+
+/*content space two*/
+.content-space-two {
+  margin-top: 450px;
+  margin-bottom: 0px;
+  color: white;
+  background: url(img/mona-eendra.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.content-space-twoa {
+  margin-top: 550px;
+  margin-bottom: 0px;
+  color: white;
+  background: url(img/mona-eendra.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.content-space-twob {
+  margin-bottom: 0px;
+  color: white;
+  background: url(img/mona-eendra.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+
+.page-break {
+    width: 50%;
+    height: 3px;
+    margin: 0 auto;
+}
+/*homepage spacing*/
 .no-padding {
   padding: 0.5 0.5 0.5 0.5 !important;
+}
+
+.paddinga {
+  padding: 50 30 50 50 !important;
 }
 
 /*shake*/
