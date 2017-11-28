@@ -1,10 +1,21 @@
 /*text formatting*/
+.a{
+  font-family: 'Quicksand' 'Poppins', sans-serif;
+  padding-bottom: 5px;
+  font-size: 14px;
+  padding-top: 10px;
+}
 .p{
   font-family: 'Quicksand' 'Poppins', sans-serif;
   padding-bottom: 5px;
   font-size: 9px;
   padding-top: 10px;
   color: black;
+}
+
+.ul{
+  font-size: 14px;
+  font-family: 'Quicksand';
 }
 
 .project{
@@ -70,6 +81,25 @@
 .imga{
 float:right;
 }
+
+.imgb{
+float:right;
+margin-right: 25px;
+
+}
+
+.imgc{
+float:right;
+margin-right: 25px;
+
+}
+
+.imgd{
+float:right;
+margin-right: 25px;
+
+}
+
 /*logo/header*/
 .logo{
   height: 150px;
@@ -101,8 +131,33 @@ float:right;
   padding-right: 10px;
 
 }
+
+.box0b {
+  background-color: white;
+  height: 500px;
+  color: white;
+  text-align: justify;
+  letter-spacing: 1px;
+  line-height: 20px;
+  padding-right: 10px;
+
+}
+
 .box1 {
   background-color: black;
+  height: 300px;
+  color: white;
+  text-align: left;
+  margin-top: 15px;
+  padding-left: 10px;
+  padding-top: 20px;
+  margin-bottom: 15px;
+
+}
+
+
+
+#video {
   height: 300px;
   color: white;
   text-align: left;
