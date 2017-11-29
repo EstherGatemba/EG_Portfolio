@@ -1,79 +1,21 @@
-/*text formatting*/
-.a{
-  font-family: 'Quicksand' 'Poppins', sans-serif;
-  padding-bottom: 5px;
-  font-size: 10vw;
-  padding-top: 10px;
+/*logo/header*/
+.logo{
+  height: 150px;
+  color: white;
+  line-height: 290px;
+  padding-top: 10 !important;
+  padding-right: 20px;
+}
+/*////////////////////////////////////////////////////////////////////////*/
+/*homepage spacing*/
+.no-padding {
+  padding: 0.5 0.5 0.5 0.5 !important;
 }
 
-.p{
-  font-family: 'Quicksand' 'Poppins', sans-serif;
-  padding-bottom: 5px;
-  font-size: 6vw;
-  padding-top: 10px;
-  color: black;
-}
-@media screen and (min-width: 480px) {
-  p { font-size: 2vw; }
-}
-@media screen and (min-width: 640px) {
-  p { font-size: 3vw; }
-}
-@media screen and (min-width: 1024px) {
-  p { font-size: 12px; }
+.paddinga {
+  padding: 50 30 50 50 !important;
 }
 
-.ul{
-  font-size: 10vw;
-  font-family: 'Quicksand';
-}
-/*classes for the descriptive text on the page*/
-.project{
-  columns: 3;
-}
-
-.about{
-  columns: 2;
-}
-.title{
-  font-family: Poppins;
-  font-weight: bold;
-}
-
-
-.titlea{
-  font-family: Poppins;
-  font-weight: bold;
-  float: right;
-}
-
-
-.projectinfo{
-  font-family: 'Quicksand', sans-serif;
-  font-size: 9vw;
-  font-weight: 300;
-}
-
-@media screen and (min-width: 480px) {
-  .projectinfo { font-size: 2vw; }
-}
-@media screen and (min-width: 640px) {
-.projectinfo { font-size: 3vw; }
-}
-@media screen and (min-width: 1024px) {
-  .projectinfo { font-size: 4vw; }
-}
-
-.myInput .button{
- border-radius:8px;
- font-size:12px;
- font-family: 'Quicksand', sans-serif;
- cursor:pointer;
- line-height: normal;
-}
-
-/*Container elements
-*content and navigation positioning*/
 .fullpage{
   width: 100%;
   margin-left: 100px;
@@ -92,189 +34,34 @@
 
 @media screen and (min-width: 400px) {
   .rowb {
-    left: 400;
-    font-size: 2vw; }
+    left: 720;
+    font-size: 2.5vw; }
 }
-@media screen and (min-width: 640px) {
- .rowb{
-left: 850px;
- font-size: 3vw; }
-}
-@media screen and (min-width: 768px) {
-.rowb{
-  left: 850px;
-  font-size: 4vw; }
-}
-
-/*boxes animation*/
-.box:hover{
-  animation: shake 1.0s cubic-bezier(.36,.07,.19,.97) both;
-  transform: translate3d(0, 0, 0);
-  backface-visibility: hidden;
-  perspective: 1000px;
-
-}
-
-/*image classes*/
-.img{
-  height: 100px;
-  width: 150px;
-  padding-bottom: 5px;
-
-}
-
-.imgprofile{
-float:right;
-margin-right: 25px;
-}
-@media screen and (min-width: 400px) {
-  .imgprofile {
-    height: 300px; }
-}
-.imga{
-float:right;
-}
-
-.imgb{
-float:right;
-margin-right: 25px;
-
-}
-
-.imgc{
-float:right;
-margin-right: 25px;
-
-}
-
-.imgd{
-float:right;
-margin-right: 25px;
+@media screen and (min-width: 760px) {
+  .rowb {
+    left: 720px;
+    font-size: 2.5vw; }
 }
 
 
-/*logo/header*/
-.logo{
-  height: 150px;
-  color: white;
-  line-height: 290px;
-  padding-top: 10 !important;
-  padding-right: 20px;
-}
-
-/*container boxes with the page content*/
-.box0 {
-  background-color: black;
-  height: 500px;
-  color: white;
-  text-align: justify;
-  letter-spacing: 1px;
-  line-height: 20px;
-  padding-right: 10px;
-  text-decoration: none;
-  font-size: 10vw;
-
-}
-
-.box0a {
-  background-color: black;
-  height: 500px;
-  color: white;
-  text-align: justify;
-  letter-spacing: 1px;
-  line-height: 20px;
-  padding: 10 10 0 20;
-
-}
-@media screen and (min-width: 400px) {
-  .box0a {
-    font-size: 2vw; }
-}
-.box0b {
-  background-color: white;
-  height: 500px;
-  color: black;
-  text-align: justify;
-  letter-spacing: 1px;
-  line-height: 20px;
-  padding-right: 10px;
-  padding-top: 20px;
-
-}
-
-.box1 {
-  background-color: black;
-  height: 300px;
-  color: white;
-  text-align: left;
-  margin-top: 15px;
-  padding-left: 10px;
-  padding-top: 20px;
-  margin-bottom: 15px;
-}
-.box1about {
-  background-color: black;
-  height: 450px;
-  color: white;
-  text-align: left;
-  margin-top: 15px;
-  padding-left: 10px;
-  padding-top: 20px;
-  margin-bottom: 15px;
-}
-
-#box1 {
-  height: 300px;
-  color: white;
-  text-align: left;
-  margin-top: 15px;
-}
-
-.box1_raymo {
-  height: 250px;
-  color: white;
-  text-align: left;
-}
-
-.box2{
-  background-color: black;
-  height: 200px;
-  color: white;
-  text-align: left;
-  line-height: 290px;
-  padding-left: 10px;
-  margin-top: 5px;
-}
-
-.box2about{
-  background-color: black;
-  height: 200px;
-  color: white;
-  text-align: center;
-  line-height: 290px;
-  padding-left: 350px;
-  padding top: 100px;
-  margin-top: 15px;
-  padding-top: 100px;
-}
-
-/*navigation classes*/
+/*////////////////////////////////////////////////////////////////////////*/
+/*Navigation*/
 .nav{
   font-family: 'Quicksand', sans-serif;
 }
 
 /*navigation positions*/
 @media screen and (min-width: 480px) {
-  .nav { font-size: 3vw; }
+  .nav { font-size: 4vw; }
 }
 @media screen and (min-width: 640px) {
   .nav { font-size: 6vw; }
 }
 @media screen and (min-width: 1024px) {
-  .nav { font-size: 2vw; }
+  .nav { font-size: 3vw; }
 }
 @media screen and (min-width:760px) {
-  .nav { font-size: 2vw; }
+  .nav { font-size: 2.5vw; }
 }
 
 /*Navigation boxes*/
@@ -304,81 +91,104 @@ margin-right: 25px;
   background-color: black;
   height: 100px;
   color: white;
-  text-align: center;
+  text-align: right;
   line-height: 290px;
   float:right;
-  padding: 25 30 50 55 !important;
+  padding: 25 30 50 40 !important;
   margin-bottom: 10px;
-  color: black;
 }
 
 .box6{
   background-color: black;
   height: 100px;
   color: white;
-  text-align: center;
+  text-align: right;
   line-height: 290px;
   float:right;
-  padding: 25 30 50 65 !important;
+  padding: 25 30 50 45 !important;
   margin-bottom: 10px;
-  color: black;
 }
 
 .box7{
   background-color: black;
   height: 100px;
   color: white;
-  text-align: center;
+  text-align: right;
   line-height: 290px;
   float:right;
   padding: 25 30 50 60 !important;
   margin-bottom: 10px;
+}
+/*////////////////////////////////////////////////////////////////////////*/
+.box:hover{
+  animation: shake 1.0s cubic-bezier(.36,.07,.19,.97) both;
+  transform: translate3d(0, 0, 0);
+  backface-visibility: hidden;
+  perspective: 1000px;
+}
+
+.a{
+  font-family: 'Quicksand' 'Poppins', sans-serif;
+  padding-bottom: 5px;
+  font-size: 10vw;
+  padding-top: 10px;
+}
+
+.p{
+  font-family: 'Quicksand' 'Poppins', sans-serif;
+  padding-bottom: 5px;
+  font-size: 6vw;
+  padding-top: 10px;
   color: black;
-
+}
+@media screen and (min-width: 480px) {
+  p { font-size: 2vw; }
+}
+@media screen and (min-width: 640px) {
+  p { font-size: 3vw; }
+}
+@media screen and (min-width: 1024px) {
+  p { font-size: 12px; }
 }
 
-.box8{
-  height: 300px;
-  color: white;
-  text-align: right;
-  line-height: 290px;
-
+.ul{
+  font-size: 10vw;
+  font-family: 'Quicksand';
 }
 
-.box9{
-  height: 300px;
-  color: white;
-  text-align: right;
-  line-height: 290px;
-
+.project{
+  columns: 3;
+}
+@media screen and (min-width: 400px) {
+  .project {
+    columns: 1;
+  width: 150px;}
 }
 
-.box10{
-  height: 300px;
-  color: white;
-  text-align: right;
-  line-height: 290px;
+.title{
+  font-family: Poppins;
+  font-weight: bold;
+}
+.li{
 
 }
-
-.box11{
-  background-color: black;
-  height: 200px;
-  color: white;
-  text-align: right;
-  line-height: 290px;
+.projectinfo{
+  font-family: 'Quicksand', sans-serif;
+  font-size: 9vw;
+  font-weight: 300;
 }
 
-/*video class on Raymo page */
-#video {
-  height: 300px;
-  color: white;
-  text-align: left;
-  margin-top: 15px;
-  padding-left: 10px;
-  padding-top: 20px;
-  margin-bottom: 15px;
-
+@media screen and (min-width: 400px) {
+  .projectinfo { font-size: 2vw; }
+}
+@media screen and (min-width: 640px) {
+.projectinfo { font-size: 3vw; }
+}
+@media screen and (min-width: 768px) {
+  .projectinfo { font-size: 4vw; }
+}
+@media screen and (min-width: 1024px) {
+  .projectinfo { font-size: 4vw; }
 }
 
 /*content block one */
@@ -457,6 +267,248 @@ margin-right: 25px;
   padding-top: 100px;
   padding-bottom: 100px;
 }
+
+/*content space two*/
+.content-space-box {
+  margin-top: 170px;
+  margin-bottom: 0px;
+  color: white;
+  background: url(img/mona-eendra.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.page-break {
+    width: 50%;
+    height: 3px;
+    margin: 0 auto;
+}
+
+/*shake*/
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}
+
+/*////////////////////////////////////////////////////////////////////////*/
+/*about page*/
+
+.about{
+  columns: 2;
+}
+@media screen and (min-width: 400px) {
+  .about {
+    font-size: 1.5vw;
+  height: 350px;
+columns: 1;
+padding-top: 340px;
+}
+}
+/*about page image*/
+.imgprofile{
+float:right;
+  margin-left: 400px;
+}
+
+@media screen and (min-width: 400px) {
+  .imgprofile {
+    height: 300px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .imgprofile {
+    height: 475px;
+}
+}
+
+.box0a {
+  background-color: black;
+  height: 500px;
+  color: white;
+  text-align: justify;
+  letter-spacing: 1px;
+  line-height: 20px;
+  padding: 20 20 10 20;
+}
+@media screen and (min-width: 400px) {
+  .box0a {
+    font-size: 2vw;
+  height: 450px;}
+}
+@media screen and (min-width: 640px) {
+  .box0a {
+    font-size: 2vw;
+  height: 500px;} }
+}
+@media screen and (min-width: 768px) {
+  .box0a {
+    font-size: 2vw;
+  height: 500px;}}
+
+@media screen and (min-width: 1024px) {
+  .box0a {
+    font-size: 2vw;
+  height: 500px;} }
+
+.titlename{
+  font-family: Poppins;
+  font-weight: bold;
+}
+
+.box1about {
+  background-color: black;
+  height: 450px;
+  color: white;
+  text-align: left;
+  margin-top: 15px;
+  padding-left: 10px;
+  padding-top: 20px;
+  margin-bottom: 15px;
+}
+@media screen and (min-width: 400px) {
+  .box1about {
+    font-size: 1.5vw;
+  height: 350px;
+columns: 1;
+}
+}
+@media screen and (min-width: 640px) {
+  .box1about {
+    font-size: 1.5vw;
+  height: 450px;
+columns: 2; }
+}
+@media screen and (min-width: 768px) {
+  .box1about {
+    font-size: 1.5vw;
+  height: 400px;
+columns: 3;}
+}
+@media screen and (min-width: 1024px) {
+  .box1about {
+    font-size: 1.5vw;
+  height: 350px;
+  columns: 2; }
+}
+.box2about{
+  background-color: black;
+  height: 200px;
+  color: white;
+  text-align: center;
+  line-height: 290px;
+  padding-left: 350px;
+  padding top: 100px;
+  margin-top: 15px;
+  padding-top: 100px;
+}
+/*////////////////////////////////////////////////////////////////////////*/
+/*samaritan's feet page*/
+.content-space-smrtn {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: white;
+  background: url(img/mona-eendra.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-top: 90px;
+  padding-bottom: 90px;
+}
+
+.box0b {
+  background-color: white;
+  height: 500px;
+  color: black;
+  text-align: justify;
+  letter-spacing: 1px;
+  line-height: 20px;
+  padding-right: 10px;
+  padding-top: 20px;
+}
+
+.imga{
+float:right;
+}
+.imgb{
+float:right;
+margin-right: 25px;
+}
+
+.imgc{
+float:right;
+margin-right: 25px;
+}
+
+.imgd{
+float:right;
+margin-right: 25px;
+}
+.imgsmrtn{
+  height: 450px;
+  width: 530px
+}
+
+@media screen and (min-width: 400px) {
+  .box1smrtn {
+    font-size: 1.5vw;
+  height: 350px;
+columns: 1;
+}
+}
+@media screen and (min-width: 640px) {
+  .box1smrtn {
+    font-size: 1.5vw;
+  height: 450px;
+columns: 2; }
+}
+@media screen and (min-width: 768px) {
+  .box1smrtn {
+    font-size: 1.5vw;
+  height: 400px;
+columns: 3;}
+}
+@media screen and (min-width: 1024px) {
+  .box1smrtn {
+    font-size: 1.5vw;
+  height: 350px;
+  columns: 2; }
+}
+/*////////////////////////////////////////////////////////////////////////*/
+/*Raymo page*/
+.box1_raymo {
+  height: 250px;
+  color: white;
+  text-align: left;
+}
+
+#video {
+  height: 300px;
+  color: white;
+  text-align: left;
+  margin-top: 15px;
+  padding-left: 10px;
+  padding-top: 20px;
+  margin-bottom: 15px;
+}
+
 /*content space two*/
 .content-space-twoa {
   margin-top: 550px;
@@ -482,49 +534,133 @@ margin-right: 25px;
   padding-top: 100px;
   padding-bottom: 100px;
 }
-/*content space two*/
-.content-space-box {
-  margin-top: 170px;
-  margin-bottom: 0px;
+/*////////////////////////////////////////////////////////////////////////*/
+/*Controls page*/
+
+
+
+/*////////////////////////////////////////////////////////////////////////*/
+/*Navigation*/
+
+
+/*////////////////////////////////////////////////////////////////////////*/
+/*about link*/
+
+
+/*////////////////////////////////////////////////////////////////////////*/
+/*contact link*/
+
+
+
+/*////////////////////////////////////////////////////////////////////////*/
+/*classes for the descriptive text on the page*/
+
+
+
+
+.titlea{
+  font-family: Poppins;
+  font-weight: bold;
+  float: right;
+}
+
+
+
+
+.myInput .button{
+ border-radius:8px;
+ font-size:12px;
+ font-family: 'Quicksand', sans-serif;
+ cursor:pointer;
+ line-height: normal;
+}
+
+/*boxes animation*/
+
+/*image classes*/
+.img{
+  height: 100px;
+  width: 150px;
+  padding-bottom: 5px;
+
+}
+
+/*container boxes with the page content*/
+.box0 {
+  background-color: black;
+  height: 500px;
   color: white;
-  background: url(img/mona-eendra.jpg) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
-  padding-top: 100px;
-  padding-bottom: 100px;
+  text-align: justify;
+  letter-spacing: 1px;
+  line-height: 20px;
+  padding-right: 10px;
+  text-decoration: none;
+  font-size: 10vw;
 }
 
-.page-break {
-    width: 50%;
-    height: 3px;
-    margin: 0 auto;
-}
-/*homepage spacing*/
-.no-padding {
-  padding: 0.5 0.5 0.5 0.5 !important;
-}
-
-.paddinga {
-  padding: 50 30 50 50 !important;
+.box1 {
+  background-color: black;
+  height: 300px;
+  color: white;
+  text-align: left;
+  margin-top: 15px;
+  padding-left: 10px;
+  padding-top: 20px;
+  margin-bottom: 15px;
 }
 
-/*shake*/
-@keyframes shake {
-  10%, 90% {
-    transform: translate3d(-1px, 0, 0);
-  }
+#box1 {
+  height: 300px;
+  color: white;
+  text-align: left;
+  margin-top: 15px;
+}
 
-  20%, 80% {
-    transform: translate3d(2px, 0, 0);
-  }
 
-  30%, 50%, 70% {
-    transform: translate3d(-4px, 0, 0);
-  }
 
-  40%, 60% {
-    transform: translate3d(4px, 0, 0);
-  }
+.box2{
+  background-color: black;
+  height: 200px;
+  color: white;
+  text-align: left;
+  line-height: 290px;
+  padding-left: 10px;
+  margin-top: 5px;
+}
+
+
+
+/*navigation classes*/
+
+
+.box8{
+  height: 300px;
+  color: white;
+  text-align: right;
+  line-height: 290px;
+
+}
+
+.box9{
+  height: 300px;
+  color: white;
+  text-align: right;
+  line-height: 290px;
+
+}
+
+.box10{
+  height: 300px;
+  color: white;
+  text-align: right;
+  line-height: 290px;
+
+}
+
+.box11{
+  background-color: black;
+  height: 200px;
+  color: white;
+  text-align: right;
+  line-height: 290px;
 }
