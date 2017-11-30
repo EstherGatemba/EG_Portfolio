@@ -32,18 +32,6 @@
   left: 80%;
 }
 
-/*@media screen and (min-width: 400px) {
-  .rowb {
-    left: 720;
-    font-size: 2.5vw; }
-}
-@media screen and (min-width: 760px) {
-  .rowb {
-    left: 720px;
-    font-size: 2.5vw; }
-}*/
-
-
 /*////////////////////////////////////////////////////////////////////////*/
 /*Navigation*/
 .nav{
@@ -72,7 +60,7 @@
   text-align: right;
   line-height: 290px;
   float: right;
-  padding: 50 30 50 50 !important;
+  padding: 50 30 50 56 !important;
   margin-bottom: 10px;
 }
 
@@ -83,7 +71,7 @@
   text-align: right;
   line-height: 290px;
   float:right;
-  padding: 50 30 50 28 !important;
+  padding: 50 30 50 18 !important;
   margin-bottom: 10px;
 }
 
@@ -105,7 +93,7 @@
   text-align: right;
   line-height: 290px;
   float:right;
-  padding: 25 30 50 45 !important;
+  padding: 25 30 50 48 !important;
   margin-bottom: 10px;
 }
 
@@ -174,18 +162,6 @@
   font-weight: 300;
 }
 
-/*@media screen and (min-width: 400px) {
-  .projectinfo { font-size: 2vw; }
-}
-@media screen and (min-width: 640px) {
-.projectinfo { font-size: 3vw; }
-}
-@media screen and (min-width: 768px) {
-  .projectinfo { font-size: 4vw; }
-}
-@media screen and (min-width: 1024px) {
-  .projectinfo { font-size: 4vw; }
-}*/
 
 /*content block one */
 .content-block-one {
@@ -230,7 +206,7 @@
   margin-top: 0px;
   margin-bottom: 0px;
   color: white;
-  background: url(img/mona-eendra.jpg) no-repeat center center fixed;
+  background: url(img/brandi-redd.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -241,7 +217,7 @@
 
 .content-space-oneb {
   color: white;
-  background: url(img/mona-eendra.jpg) no-repeat center center fixed;
+  background: url(img/brandi-redd.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
