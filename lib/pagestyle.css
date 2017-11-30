@@ -159,11 +159,7 @@
 .project{
   columns: 2;
 }
-@media screen and (min-width: 400px) {
-  .project {
-    columns: 1;
-  width: 150px;}
-}
+
 
 .title{
   font-family: Poppins;
@@ -178,7 +174,7 @@
   font-weight: 300;
 }
 
-@media screen and (min-width: 400px) {
+/*@media screen and (min-width: 400px) {
   .projectinfo { font-size: 2vw; }
 }
 @media screen and (min-width: 640px) {
@@ -189,7 +185,7 @@
 }
 @media screen and (min-width: 1024px) {
   .projectinfo { font-size: 4vw; }
-}
+}*/
 
 /*content block one */
 .content-block-one {
@@ -310,17 +306,7 @@
 /*////////////////////////////////////////////////////////////////////////*/
 /*about page*/
 
-.about{
-  columns: 2;
-}
-@media screen and (min-width: 400px) {
-  .about {
-    font-size: 1.5vw;
-  height: 350px;
-columns: 1;
-padding-top: 340px;
-}
-}
+
 /*about page image*/
 .imgprofile{
 float:right;
@@ -382,11 +368,10 @@ float:right;
   padding-top: 20px;
   margin-bottom: 15px;
 }
-@media screen and (min-width: 400px) {
+/*@media screen and (min-width: 400px) {
   .box1about {
     font-size: 1.5vw;
   height: 350px;
-columns: 1;
 }
 }
 @media screen and (min-width: 640px) {
@@ -406,7 +391,7 @@ columns: 3;}
     font-size: 1.5vw;
   height: 350px;
   columns: 2; }
-}
+}*/
 .box2about{
   background-color: black;
   height: 200px;
@@ -419,9 +404,7 @@ columns: 3;}
   padding-top: 100px;
 }
 
-.blogtext{
-  columns: 2;
-}
+
 /*////////////////////////////////////////////////////////////////////////*/
 /*samaritan's feet page*/
 .content-space-smrtn {
@@ -470,11 +453,10 @@ margin-right: 25px;
   width: 530px
 }
 
-@media screen and (min-width: 400px) {
+/*@media screen and (min-width: 400px) {
   .box1smrtn {
     font-size: 1.5vw;
   height: 350px;
-columns: 1;
 }
 }
 @media screen and (min-width: 640px) {
@@ -494,7 +476,7 @@ columns: 3;}
     font-size: 1.5vw;
   height: 350px;
   columns: 2; }
-}
+}*/
 /*////////////////////////////////////////////////////////////////////////*/
 /*Raymo page*/
 .box1_raymo {
@@ -543,23 +525,6 @@ columns: 3;}
 
 
 
-/*////////////////////////////////////////////////////////////////////////*/
-/*Navigation*/
-
-
-/*////////////////////////////////////////////////////////////////////////*/
-/*about link*/
-
-
-/*////////////////////////////////////////////////////////////////////////*/
-/*contact link*/
-
-
-
-/*////////////////////////////////////////////////////////////////////////*/
-/*classes for the descriptive text on the page*/
-
-
 
 
 .titlea{
@@ -591,7 +556,7 @@ columns: 3;}
 
 /*container boxes with the page content*/
 .box0 {
-  background-color: black;
+  background-color: white;
   height: 500px;
   color: white;
   text-align: justify;
