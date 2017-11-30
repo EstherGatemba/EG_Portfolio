@@ -157,7 +157,7 @@
 }
 
 .project{
-  columns: 3;
+  columns: 2;
 }
 @media screen and (min-width: 400px) {
   .project {
@@ -417,6 +417,10 @@ columns: 3;}
   padding top: 100px;
   margin-top: 15px;
   padding-top: 100px;
+}
+
+.blogtext{
+  columns: 2;
 }
 /*////////////////////////////////////////////////////////////////////////*/
 /*samaritan's feet page*/
