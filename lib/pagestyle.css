@@ -29,10 +29,10 @@
   margin-top: 152px;
   width: 30%;
   position: fixed;
-  left: 1099px;
+  left: 80%;
 }
 
-@media screen and (min-width: 400px) {
+/*@media screen and (min-width: 400px) {
   .rowb {
     left: 720;
     font-size: 2.5vw; }
