@@ -215,6 +215,20 @@
   padding-bottom: 100px;
 }
 
+/*content space one*/
+.content-space-onea{
+  margin-top: 0px;
+  margin-bottom: 0px;
+  color: white;
+  background: url(img/brandi-redd.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
 .content-space-oneb {
   color: white;
   background: url(img/mona-eendra.jpg) no-repeat center center fixed;
@@ -545,7 +559,7 @@ columns: 3;}
 
 .box1 {
   background-color: black;
-  height: 300px;
+  height: 550px;
   color: white;
   text-align: left;
   margin-top: 15px;
